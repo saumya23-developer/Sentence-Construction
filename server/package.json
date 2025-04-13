@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx json-server --watch db.json --port ${PORT:-3000}"
+ "start": "npx json-server --watch db.json --port ${PORT:-10000} --host 0.0.0.0"
   },
   "author": "",
   "license": "ISC",

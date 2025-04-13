@@ -38,7 +38,7 @@ function App() {
   useEffect(() => {
     const fetchQuestions = async () => {
       try {
-        const response = await fetch('http://localhost:3001/quiz');
+const response = await fetch('https://sentence-construction.onrender.com/quiz');
         const data = await response.json();
 
         // Validate data structure before setting state
